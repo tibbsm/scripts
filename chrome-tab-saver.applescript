@@ -12,7 +12,7 @@ tell application "Google Chrome"
 end tell
 
 
-set filePath to (path to home folder as text) & "Documents:foo.md"
+set filePath to "Documents:Google Chrome Tabs.md"
 set fileReference to open for access file filePath with write permission
 
 repeat with tabInfo in tabList
