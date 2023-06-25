@@ -11,7 +11,6 @@ tell application "Google Chrome"
 	end repeat
 end tell
 
-
 set filePath to "Documents:Google Chrome Tabs.md"
 set fileReference to open for access file filePath with write permission
 
