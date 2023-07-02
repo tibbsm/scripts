@@ -1,7 +1,6 @@
 tell application "Google Chrome"
 	set windowList to windows
 	set tabList to {}
-	
 	repeat with currentWindow in windowList
 		set windowTabs to tabs of currentWindow
 		repeat with currentTab in windowTabs
