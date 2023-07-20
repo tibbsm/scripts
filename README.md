@@ -7,3 +7,4 @@ a repo for scripts.
 
 ### todos
 - yt video rss to download
+https://pastebin.com/s6kSzXrL
