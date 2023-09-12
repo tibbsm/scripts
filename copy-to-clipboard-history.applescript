@@ -10,4 +10,4 @@ set theTextToAppend to the clipboard
 -- JSON? for dealing with new lines and whatever
 set theFilePath to "~/clipboard.txt" -- Replace with the actual file path
 
--- do shell script "echo " & quoted form of theTextToAppend & " >> " & quoted form of theFilePath
+do shell script "echo " & quoted form of theTextToAppend & " >> " & quoted form of theFilePath
