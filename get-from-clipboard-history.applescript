@@ -8,9 +8,9 @@ set linesList to paragraphs of tailOutput
 
 set dropdownOptions to linesList
 set selectedOption to choose from list dropdownOptions with prompt "Select an option:" default items {item 1 of dropdownOptions} without multiple selections allowed and empty selection allowed
-delay 1
-set the clipboard to selectedOption
-delay 1
+set chosenOption to item 1 of selectedOption
+
+set the clipboard to chosenOption
 
 
 -- if selectedOption is false then
