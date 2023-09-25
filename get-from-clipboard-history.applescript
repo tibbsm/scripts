@@ -16,10 +16,12 @@ else
     set selectedOptionSize to count of selectedOption
     set counter to 0
     repeat with thisItem in selectedOption
-        if (counter = selectedOptionSize - 1) then
+        if (counter = selectedOptionSize - 1) then 
+            -- if last item, don't add extra line
             set finalString to finalString & thisItem
         else
-            set finalString to finalString & thisItem & return -- the return creates a new line
+            -- the return creates a new line
+            set finalString to finalString & thisItem & return 
         end if
         set counter to (counter + 1)
     end repeat
