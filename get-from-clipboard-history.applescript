@@ -1,5 +1,8 @@
 -- Use hyper+v for starters
 
+-- TODO?
+-- would be better to launch a small app that could use fzf on the whole history
+
 -- get last 10 from clipboard
 set tailOutput to (do shell script "tail -n 10 /Users/mt/clipboard.txt")
 set linesList to paragraphs of tailOutput
@@ -16,12 +19,10 @@ else
     set selectedOptionSize to count of selectedOption
     set counter to 0
     repeat with thisItem in selectedOption
-        if (counter = selectedOptionSize - 1) then 
-            -- if last item, don't add extra line
-            set finalString to finalString & thisItem
-        else
+        set finalString to finalString & thisItem
+        if (counter is not selectedOptionSize - 1) then 
             -- the return creates a new line
-            set finalString to finalString & thisItem & return 
+            set finalString to finalString & return 
         end if
         set counter to (counter + 1)
     end repeat
