@@ -9,8 +9,14 @@ set linesList to paragraphs of tailOutput
 
 set dropdownOptions to linesList
 
-set selectedOption to choose from list dropdownOptions with prompt "Select an option:" default items {item 1 of dropdownOptions} with multiple selections allowed
+tell application "System Events"
+    set activeApp to name of first application process whose frontmost is true
+end tell
 
+tell application "SystemUIServer"
+    activate
+    set selectedOption to choose from list dropdownOptions with prompt "Select an option:" default items {item 1 of dropdownOptions} with multiple selections allowed
+end tell
 
 if selectedOption is false then
 else
@@ -28,3 +34,9 @@ else
     end repeat
     set the clipboard to finalString
 end if
+
+tell application "System Events"
+    tell process activeApp
+        set frontmost to true
+    end tell
+end tell
