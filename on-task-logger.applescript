@@ -17,6 +17,7 @@ set textToAppend to timestamp & " - " & userInput & linefeed
 set homeFolder to POSIX path of (path to home folder)
 set filePath to (homeFolder & ".tasklog")
 
+-- ??? Use bash instead?
 -- Append the text to the file
 try
     set fileReference to open for access filePath with write permission
