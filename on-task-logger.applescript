@@ -4,7 +4,9 @@
 -- log to file
 
 -- Prompt the user for text input
-set userInput to text returned of (display dialog "Enter the text you want to append:" default answer "")
+set userInput to text returned of (display dialog "What are you working on?" default answer "")
+
+-- TODO: handle empty ''
 
 -- Get the current date and time
 set currentDate to current date
