@@ -8,7 +8,6 @@ set userInput to text returned of (display dialog "What are you working on?" def
 
 -- TODO: handle empty ''
 
--- Get the current date and time
 set currentDate to current date
 set timestamp to (do shell script "date '+%Y-%m-%d %H:%M:%S'")
 
@@ -19,7 +18,7 @@ set textToAppend to timestamp & " - " & userInput & linefeed
 set homeFolder to POSIX path of (path to home folder)
 set filePath to (homeFolder & ".tasklog")
 
--- ??? Use bash instead?
+-- ??? Use bash instead (echo)?
 -- Append the text to the file
 try
     set fileReference to open for access filePath with write permission
