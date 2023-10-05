@@ -11,7 +11,7 @@ set userInput to text returned of (display dialog "What are you working on?" def
 set currentDate to current date
 set timestamp to (do shell script "date '+%Y-%m-%d %H:%M:%S'")
 
--- Create the timestamped text to append
+-- create line in log which is `{timestamp} - {input}{new line}
 set textToAppend to timestamp & " - " & userInput & linefeed
 
 -- Specify the file path where you want to append the text (in the user's home directory)
