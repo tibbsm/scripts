@@ -1,7 +1,4 @@
 -- Use cron or similar to schedule
--- script to prompt user to log what they are working on
-
--- log to file
 
 -- Prompt the user for text input
 set userInput to text returned of (display dialog "What are you working on?" default answer "")
