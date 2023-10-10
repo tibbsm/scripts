@@ -1,4 +1,4 @@
--- Use cron or similar to schedule (launchd is apparently the way)
+-- Use launchd to schedule
 -- for starters, https://gist.github.com/johndturn/09a5c055e6a56ab61212204607940fa0
 
 set userInput to text returned of (display dialog "What are you working on?" default answer "")
