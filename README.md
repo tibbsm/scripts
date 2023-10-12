@@ -3,4 +3,12 @@
 a repo for scripts. 
 
 ## launchd
-https://gist.github.com/johndturn/09a5c055e6a56ab61212204607940fa0
+- https://www.launchd.info/
+- https://gist.github.com/johndturn/09a5c055e6a56ab61212204607940fa0
+
+#### Where to store the plist files (launchd.info)
+- User Agents	~/Library/LaunchAgents	Currently logged in user
+- Global Agents	/Library/LaunchAgents	Currently logged in user
+- Global Daemons	/Library/LaunchDaemons	root or the user specified with the key UserName
+- System Agents	/System/Library/LaunchAgents	Currently logged in user
+- System Daemons	/System/Library/LaunchDaemons	root or the user specified with the key UserName
