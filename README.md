@@ -6,6 +6,11 @@ a repo for scripts.
 - https://www.launchd.info/
 - https://gist.github.com/johndturn/09a5c055e6a56ab61212204607940fa0
 
+#### TODO
+- learn more. the script is inconsistent. hasn't run today
+- get it to run once on open
+- nice to have: show as note while working / floating window
+
 #### Where to store the plist files (launchd.info)
 - User Agents	~/Library/LaunchAgents	Currently logged in user
 - Global Agents	/Library/LaunchAgents	Currently logged in user
