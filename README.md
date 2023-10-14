@@ -10,6 +10,7 @@ a repo for scripts.
 - learn more. the script is inconsistent. hasn't run today
 - get it to run once on open
 - nice to have: show as note while working / floating window
+- a lil flaky
 
 #### Where to store the plist files (launchd.info)
 - User Agents	~/Library/LaunchAgents	Currently logged in user
