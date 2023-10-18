@@ -11,6 +11,7 @@ a repo for scripts.
 - get it to run once on open
 - nice to have: show as note while working / floating window
 - a lil flaky, seems to be after sleep 
+    - works after a restart fine
 
 #### Where to store the plist files (launchd.info)
 - User Agents	~/Library/LaunchAgents	Currently logged in user
