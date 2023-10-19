@@ -12,6 +12,7 @@ a repo for scripts.
 - nice to have: show as note while working / floating window
 - a lil flaky, seems to be after sleep 
     - works after a restart fine
+    - attempting to use the `-w` flag with `launchctrl load`
 
 #### Where to store the plist files (launchd.info)
 - User Agents	~/Library/LaunchAgents	Currently logged in user
