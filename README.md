@@ -15,6 +15,7 @@ a repo for scripts.
     - attempting to use the `-w` flag with `launchctl load`
 - `launchctl list`
 - `sudo launchctl print user/XXX`
+- there seems to be a process that hangs: killing it start it up again.
 
 #### Where to store the plist files (launchd.info)
 - User Agents	~/Library/LaunchAgents	Currently logged in user
