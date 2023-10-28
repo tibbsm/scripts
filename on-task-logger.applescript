@@ -5,8 +5,7 @@ tell application "Google Chrome"
         set tabList to every tab of aWindow
         repeat with aTab in tabList
             set tabURL to URL of aTab & ","
-            set tabInfo to tabURL
-            set end of allTabs to tabInfo
+            set end of allTabs to tabURL
         end repeat
     end repeat
 end tell
