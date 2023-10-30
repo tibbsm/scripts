@@ -14,4 +14,6 @@ set userInput to text returned of (display dialog "What are you working on?" def
 
 if userInput is not equal to "" then
     do shell script "echo " & "$(date '+%Y-%m-%d %H:%M:%S')" & "," & quoted form of userInput & ",'" & allTabs & "' >> ~/.tasklog"
+else
+    do shell script "echo " & "$(date '+%Y-%m-%d %H:%M:%S')" & ",no input,'" & allTabs & "' >> ~/.tasklog"
 end if
