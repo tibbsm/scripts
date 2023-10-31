@@ -10,6 +10,7 @@ tell application "Google Chrome"
 end tell
 
 -- other info to grab and log (chrome tabs, other apps open, etc.)
+-- https://stackoverflow.com/questions/18372328/applescript-get-list-of-running-apps
 set userInput to text returned of (display dialog "What are you working on?" default answer "" giving up after 60)
 
 if userInput is not equal to "" then
