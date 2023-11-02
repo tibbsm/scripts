@@ -1,23 +1,26 @@
-tell application "Google Chrome"
-    set windowList to every window
-    set allTabs to {}
-    repeat with aWindow in windowList
-        set tabList to every tab of aWindow
-        repeat with t in tabList
-            set end of allTabs to URL of t & ","
-        end repeat
-    end repeat
-end tell
-
 -- other info to grab and log (chrome tabs, other apps open, etc.)
 -- https://stackoverflow.com/questions/18372328/applescript-get-list-of-running-apps
 set allApps to {}
 tell application "System Events"
-    set listOfProcesses to (name of every process where background only is false)
+    set listOfProcesses to (displayed name of every process where background only is false)
     repeat with p in listOfProcesses
         set end of allApps to p & ","
     end repeat
 end tell
+
+set allTabs to {}
+if listOfProcesses contains "Google Chrome" then
+    tell application "Google Chrome"
+        set windowList to every window
+        repeat with aWindow in windowList
+            set tabList to every tab of aWindow
+            repeat with t in tabList
+                set end of allTabs to URL of t & ","
+            end repeat
+        end repeat
+    end tell
+end if
+
 
 set userInput to text returned of (display dialog "What are you working on?" default answer "" giving up after 60)
 
