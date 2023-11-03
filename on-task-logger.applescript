@@ -14,8 +14,8 @@ if listOfProcesses contains "Google Chrome" then
         set windowList to every window
         repeat with aWindow in windowList
             set tabList to every tab of aWindow
-            repeat with t in tabList
-                set end of allTabs to URL of t & ","
+            repeat with aTab in tabList
+                set end of allTabs to URL of aTab & ","
             end repeat
         end repeat
     end tell
