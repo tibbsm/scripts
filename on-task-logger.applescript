@@ -3,8 +3,8 @@
 set allApps to {}
 tell application "System Events"
     set listOfProcesses to (displayed name of every process where background only is false)
-    repeat with p in listOfProcesses
-        set end of allApps to p & ","
+    repeat with aProcess in listOfProcesses
+        set end of allApps to aProcess & ","
     end repeat
 end tell
 
@@ -20,7 +20,6 @@ if listOfProcesses contains "Google Chrome" then
         end repeat
     end tell
 end if
-
 
 set userInput to text returned of (display dialog "What are you working on?" default answer "" giving up after 60)
 
