@@ -1,5 +1,3 @@
--- other info to grab and log (chrome tabs, other apps open, etc.)
--- https://stackoverflow.com/questions/18372328/applescript-get-list-of-running-apps
 set allApps to {}
 tell application "System Events"
     set listOfProcesses to (displayed name of every process where background only is false)
