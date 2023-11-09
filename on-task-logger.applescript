@@ -1,4 +1,6 @@
 set allApps to {}
+set allTabs to {}
+
 tell application "System Events"
     set listOfProcesses to (displayed name of every process where background only is false)
     repeat with aProcess in listOfProcesses
@@ -6,7 +8,6 @@ tell application "System Events"
     end repeat
 end tell
 
-set allTabs to {}
 if listOfProcesses contains "Google Chrome" then
     tell application "Google Chrome"
         set windowList to every window
