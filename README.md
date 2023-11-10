@@ -2,20 +2,18 @@
 
 a repo for scripts. 
 
+## Inspo
+- https://news.ycombinator.com/item?id=32467957
+- https://news.ycombinator.com/item?id=35122780
+
 ## launchd
 - https://www.launchd.info/
 - https://gist.github.com/johndturn/09a5c055e6a56ab61212204607940fa0
 
-#### TODO
-- learn more. the script is inconsistent. hasn't run today
-- get it to run once on open
+#### TODO (worklog)
 - nice to have: show as note while working / floating window
-- a lil flaky, seems to be after sleep 
-    - works after a restart fine
-    - attempting to use the `-w` flag with `launchctl load`
 - `launchctl list`
 - `sudo launchctl print user/XXX`
-- there seems to be a process that hangs: killing it start it up again.
 
 #### Where to store the plist files (launchd.info)
 - User Agents	~/Library/LaunchAgents	Currently logged in user
