@@ -1,6 +1,6 @@
 # scripts
 
-a repo for scripts. 
+a repo for various/random scripts. 
 
 ## Inspo
 - https://news.ycombinator.com/item?id=32467957
