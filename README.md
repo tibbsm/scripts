@@ -2,6 +2,9 @@
 
 a repo for various/random scripts. 
 
+## TODO
+- blog scripts
+
 ## Inspo
 - https://news.ycombinator.com/item?id=32467957
 - https://news.ycombinator.com/item?id=35122780
