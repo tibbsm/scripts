@@ -15,6 +15,8 @@ a repo for various/random scripts.
 
 #### TODO (worklog)
 - nice to have: show as note while working / floating window
+
+#### Useful commands for launchd
 - `launchctl list`
 - `sudo launchctl print user/XXX`
 
