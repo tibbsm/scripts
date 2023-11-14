@@ -4,6 +4,7 @@ a repo for various/random scripts.
 
 ## TODO
 - blog scripts
+- uptime logs. efficiency
 
 ## Inspo
 - https://news.ycombinator.com/item?id=32467957
