@@ -1,3 +1,4 @@
+--  launchd to run on start
 --  launchd to run script preiodically
 
 -- check if unlocked 
@@ -7,7 +8,6 @@
 -- on idle 
 -- end idle
 
--- if last entry is same day then add new until stamp
-
--- else start new day with new time stamp
 do shell script "echo $(date '+%Y-%m-%d %H:%M:%S') >> ~/.accesslog"
+
+-- cleanup script to periodically/manually go through and clean logs by summing the times by date
