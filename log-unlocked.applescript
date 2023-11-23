@@ -1,3 +1,5 @@
+-- not a bad idea, but somewhat of a pain to create (maybe later)
+-- NOTES
 --  launchd to run on start
 --  launchd to run script preiodically
 
@@ -8,6 +10,6 @@
 -- on idle 
 -- end idle
 
-do shell script "echo $(date '+%Y-%m-%d %H:%M:%S') >> ~/.accesslog"
+-- do shell script "echo $(date '+%Y-%m-%d %H:%M:%S') >> ~/.accesslog"
 
 -- cleanup script to periodically/manually go through and clean logs by summing the times by date
