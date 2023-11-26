@@ -10,6 +10,7 @@ a repo for various/random scripts.
 - more pen on paper thinking
 - whisper to pdf 
 - OCR to pdf
+- picture to git
 
 ## Inspo
 - https://news.ycombinator.com/item?id=32467957
