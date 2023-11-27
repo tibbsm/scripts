@@ -11,6 +11,9 @@ a repo for various/random scripts.
 - whisper to pdf 
 - OCR to pdf
 - picture to git
+- nice to have: show as note while working / floating window
+- improve url logs (just take domain)
+    - but this can be managed later? not sure which is better.
 
 ## Inspo
 - https://news.ycombinator.com/item?id=32467957
@@ -19,11 +22,6 @@ a repo for various/random scripts.
 ## launchd
 - https://www.launchd.info/
 - https://gist.github.com/johndturn/09a5c055e6a56ab61212204607940fa0
-
-#### TODO (worklog)
-- nice to have: show as note while working / floating window
-- improve url logs (just take domain)
-    - but this can be managed later? not sure which is better.
 
 #### Useful commands for launchd
 - `launchctl list`
