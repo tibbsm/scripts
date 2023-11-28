@@ -14,6 +14,8 @@ a repo for various/random scripts.
 - nice to have: show as note while working / floating window
 - improve url logs (just take domain)
     - but this can be managed later? not sure which is better.
+- Create docs...
+    - add launchd to docs
 
 ## Inspo
 - https://news.ycombinator.com/item?id=32467957
