@@ -16,6 +16,7 @@ a repo for various/random scripts.
     - but this can be managed later? not sure which is better.
 - Create docs...
     - add launchd to docs
+- https://blog.logrocket.com (worth reading)
 
 ## Inspo
 - https://news.ycombinator.com/item?id=32467957
