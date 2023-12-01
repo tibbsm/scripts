@@ -18,6 +18,7 @@ a repo for various/random scripts.
     - add launchd to docs
 - https://blog.logrocket.com (worth reading)
 - little finished programs every day
+    - find small tutorials
 
 ## Inspo
 - https://news.ycombinator.com/item?id=32467957
