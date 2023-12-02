@@ -19,6 +19,7 @@ a repo for various/random scripts.
 - https://blog.logrocket.com (worth reading)
 - little finished programs every day
     - find small tutorials
+    - little ideas
 
 ## Inspo
 - https://news.ycombinator.com/item?id=32467957
