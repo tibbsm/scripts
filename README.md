@@ -20,6 +20,7 @@ a repo for various/random scripts.
 - little finished programs every day
     - find small tutorials
     - little ideas
+- infinite programs
 
 ## Inspo
 - https://news.ycombinator.com/item?id=32467957
