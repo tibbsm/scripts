@@ -1,6 +1,8 @@
 set allApps to {}
 set allTabs to {}
 
+-- // TODO: get active window
+
 tell application "System Events"
     set listOfProcesses to (displayed name of every process where background only is false)
     repeat with aProcess in listOfProcesses
