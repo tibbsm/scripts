@@ -10,7 +10,8 @@ a repo for various/random scripts.
 - more pen on paper thinking
 - whisper to pdf 
 - OCR to pdf
-- picture to git
+- picture (of note/diagrams) to git
+    - OCR
 - nice to have: show as note while working / floating window
 - improve url logs (just take domain)
     - but this can be managed later? not sure which is better.
