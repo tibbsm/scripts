@@ -13,7 +13,7 @@ a repo for various/random scripts.
 - picture (of note/diagrams) to git
     - OCR
 - server setup 
-- better daily habit...
+- better daily habit....
 - nice to have: show as note while working / floating window
 - improve url logs (just take domain)
     - but this can be managed later? not sure which is better.
