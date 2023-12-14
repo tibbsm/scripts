@@ -14,6 +14,7 @@ a repo for various/random scripts.
     - OCR
 - server setup 
 - better daily habit...
+- https://github.com/shadcn-ui/ui
 - nice to have: show as note while working / floating window
 - improve url logs (just take domain)
     - but this can be managed later? not sure which is better.
