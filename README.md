@@ -25,6 +25,7 @@ a repo for various/random scripts.
     - find small tutorials
     - little ideas
 - infinite programs
+- research other peoples scripts
 
 ## Inspo
 - https://news.ycombinator.com/item?id=32467957
