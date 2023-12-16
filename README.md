@@ -26,6 +26,11 @@ a repo for various/random scripts.
     - little ideas
 - infinite programs
 - research other peoples scripts
+    - [Ask HN: Small scripts, hacks and automations you're proud of? | Hacker News](https://news.ycombinator.com/item?id=35122780)
+    - [Ask HN: Share a shell script you like | Hacker News](https://news.ycombinator.com/item?id=37112991)
+    - [Ask HN: Can I see your scripts? | Hacker News](https://news.ycombinator.com/item?id=32467957)
+    - [Ask HN: Small scripts, hacks and automations you're proud of? | Hacker News](https://news.ycombinator.com/item?id=35122780&p=2)
+    - [Ask HN: What are your best shell scripts that you use? | Hacker News](https://news.ycombinator.com/item?id=21918584)
 
 ## Inspo
 - https://news.ycombinator.com/item?id=32467957
