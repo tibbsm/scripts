@@ -25,6 +25,11 @@ a repo for various/random scripts.
     - find small tutorials
     - little ideas
 - infinite programs
+- Personal Feed
+    - [GitHub - facundoolano/feedi: A personal news aggregator and Mastodon client](https://github.com/facundoolano/feedi)
+    - [GitHub - mozilla/readability: A standalone version of the readability lib](https://github.com/mozilla/readability)
+    - [Jobs — urlwatch 2.28 documentation](https://urlwatch.readthedocs.io/en/latest/jobs.html)
+    - [Automate | Feed me up, Scotty!](https://feed-me-up-scotty.vincenttunru.com/docs/automate)
 - research other peoples scripts
     - [Ask HN: Small scripts, hacks and automations you're proud of? | Hacker News](https://news.ycombinator.com/item?id=35122780)
     - [Ask HN: Share a shell script you like | Hacker News](https://news.ycombinator.com/item?id=37112991)
