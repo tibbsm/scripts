@@ -4,8 +4,6 @@ a repo for various/random scripts.
 
 ## TODO
 - blog scripts
-- uptime logs. efficiency
-    - every 10 minutes, check if ... and log start and end of sessions ... but how to check?
 - more pen on paper thinking
 - whisper to pdf 
 - OCR to pdf
