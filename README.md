@@ -10,7 +10,6 @@ a repo for various/random scripts.
 - picture (of note/diagrams) to git
     - OCR
 - server setup 
-- better daily habit...
 - https://github.com/shadcn-ui/ui
 - nice to have: show as note while working / floating window
 - improve url logs (just take domain)
