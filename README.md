@@ -22,6 +22,7 @@ a repo for various/random scripts.
     - find small tutorials
     - little ideas
 - infinite programs
+- programs that matter. solve something real
 - Personal Feed
     - [GitHub - facundoolano/feedi: A personal news aggregator and Mastodon client](https://github.com/facundoolano/feedi)
     - [GitHub - mozilla/readability: A standalone version of the readability lib](https://github.com/mozilla/readability)
