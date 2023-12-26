@@ -21,7 +21,7 @@ a repo for various/random scripts.
 - little finished programs every day
     - find small tutorials
     - little ideas
-- infinite programs
+- infinite programs. calculating...
 - programs that matter. solve something real
     - mostly start with writing and notes. deeper reflections, hopefully
     - goal oriented
