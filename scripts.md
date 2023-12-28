@@ -11,3 +11,4 @@ I've also added the -i flag to the following:
   alias ln='ln -i -v'
 ```
 - be careful though bc you'll use rm somewhere else and delete it
+- better to create a new alias to make it clear ie rmt='trash -i'
