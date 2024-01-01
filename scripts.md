@@ -3,6 +3,7 @@
 ## Safer commands
 
 It will prompt you before moving files to the trash instead of deleting them straight away on macOS.
+- `trash` command can be installed via homebrew, etc.
 
 ```sh
 alias rm='trash -i'
