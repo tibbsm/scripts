@@ -12,5 +12,5 @@ alias cp='cp -i -v'
 alias ln='ln -i -v'
 ```
 
-- be careful though bc you'll use rm somewhere else and delete it
+- be careful though because you will use `rm` somewhere else and delete something permanently
 - better to create a new alias to make it clear ie rmt='trash -i'
