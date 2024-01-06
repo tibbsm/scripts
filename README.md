@@ -4,7 +4,7 @@ a repo for various/random scripts.
 
 # Notes
 
-## Safer commands
+## Safer commands/aliases
 
 It will prompt you before moving files to the trash instead of deleting them straight away on macOS.
 
