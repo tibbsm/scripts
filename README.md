@@ -8,6 +8,9 @@ a repo for various/random scripts.
 
 It will prompt you before moving files to the trash instead of deleting them straight away on macOS.
 
+- `-i` flag prompts you to confirm before you do something.
+- `-v` verbose
+
 ```sh
 alias rm='trash -i'
 alias mv='mv -i -v'
