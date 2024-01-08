@@ -8,6 +8,8 @@ a repo for various/random scripts.
 
 It will prompt you before moving files to the trash instead of deleting them straight away on macOS.
 
+#### Command flags
+
 - `-i` flag prompts you to confirm before you do something.
 - `-v` verbose
 
