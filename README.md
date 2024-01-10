@@ -20,6 +20,6 @@ alias cp='cp -i -v'
 alias ln='ln -i -v'
 ```
 
-- `trash` command can be installed via homebrew, etc.
+- `trash` command can be installed via homebrew or other package manager
 - be careful though because you will use `rm` somewhere else and delete something permanently
 - better to create a new alias to make it clear ie rmt='trash -i'
