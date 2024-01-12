@@ -1,4 +1,5 @@
 -- Use hyper+c for starters
+-- Or: on copy, just save copy (cmd+c), save to history
 
 -- Copy selected text to clipboard:
 tell application "System Events" to keystroke "c" using {command down}
@@ -11,7 +12,6 @@ set theTextToAppend to the clipboard
 -- set cpData to formattedDate & "," & theTextToAppend
 set cpData to theTextToAppend
 
--- JSON? CSV? for dealing with new lines and whatever
 set theFilePath to "/Users/mt/clipboard.txt" -- Replace with the actual file path
 
 do shell script "echo " & quoted form of cpData & " >> " & quoted form of theFilePath
