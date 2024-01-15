@@ -22,11 +22,9 @@ end if
 
 set userInput to text returned of (display dialog "What are you working on?" default answer "" giving up after 60)
 
--- use variables? clean up & logic
+do shell script "echo -n" & "$(date '+%Y-%m-%d %H:%M:%S'),"
 if userInput is not equal to "" then
-    do shell script "echo " & "$(date '+%Y-%m-%d %H:%M:%S')" & "," & quoted form of userInput & ",'" & allApps & "' >> ~/.tasklog"
-    do shell script "echo " & "$(date '+%Y-%m-%d %H:%M:%S')" & "," & quoted form of userInput & ",'" & allTabs & "' >> ~/.tasklog"
+    do shell script "echo" & quoted form of userInput & ",'" & allApps & allTabs &  "' >> ~/.tasklog"
 else
-    do shell script "echo " & "$(date '+%Y-%m-%d %H:%M:%S')" & ",no input,'" & allApps & "' >> ~/.tasklog" 
-    do shell script "echo " & "$(date '+%Y-%m-%d %H:%M:%S')" & ",no input,'" & allTabs & "' >> ~/.tasklog" 
+    do shell script "echo" & ",no input,'" & allApps & allTabs & "' >> ~/.tasklog"  
 end if
