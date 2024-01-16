@@ -22,9 +22,12 @@ end if
 
 set userInput to text returned of (display dialog "What are you working on?" default answer "" giving up after 60)
 
-do shell script "echo -n" & "$(date '+%Y-%m-%d %H:%M:%S'),"
+do shell script "echo -n " & "$(date '+%Y-%m-%d %H:%M:%S')," & " >> ~/.tasklog"  
+
 if userInput is not equal to "" then
-    do shell script "echo" & quoted form of userInput & ",'" & allApps & allTabs &  "' >> ~/.tasklog"
+    do shell script "echo -n " & quoted form of userInput & " >> ~/.tasklog"  
 else
-    do shell script "echo" & ",no input,'" & allApps & allTabs & "' >> ~/.tasklog"  
+    do shell script "echo -n " & ",no input" & " >> ~/.tasklog"  
 end if
+
+do shell script "echo " & "," & allApps & allTabs & " >> ~/.tasklog"  
